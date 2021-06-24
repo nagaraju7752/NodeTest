@@ -35,5 +35,5 @@ app.get('/getusers', (req, res) => {
 
 const port = process.env.port || 3000;
 var server = app.listen(port, () => {
-    console.log("server is listening at ", host, port)
+    console.log("server is listening at ", port)
 })
